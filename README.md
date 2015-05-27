@@ -1,12 +1,12 @@
-# Beyond Rectangles in Web Design: CSS Shapes and CSS Masking
+# Let's Talk About Shapes: CSS Shapes and CSS Masking
 
-Slides for my talk at [Future of Web Design](https://futureofwebdesign.com/nyc-2014/) in New York, 2014.
+Slides for my talk at [infoShare 2015](https://infoshare.pl/) in Gdańsk, Poland.
 
-This is a custom interactive slide deck meant to be shown in a controlled environment on stage. It works as expected in Google Chrome and offers decent fallbacks to keep content readable.
+This is a custom interactive slide deck meant to be shown in a controlled environment on stage. It works as expected in Google Chrome and offers reasonable fallbacks to keep content readable, but not all demos may work well in other browsers.
 
-[Live Demo](https://oslego.github.io/fowd-nyc-2014) | [Static Demo (PDF)](https://speakerdeck.com/razvancaliman/beyond-rectangles-in-web-design-css-shapes-and-css-masking)
+[Live Demo](https://oslego.github.io/infoshare-2015)
 
-![Screenshot of slides](screenshot.png)
+<!-- ![Screenshot of slides](screenshot.png) -->
 
 ## Resources:
 

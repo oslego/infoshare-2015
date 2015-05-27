@@ -688,8 +688,21 @@ $codeFont: 'Source Code Pro', monotype;
 .clip--text{
 	-webkit-clip-path: url('#clip-text');
 	-moz-clip-path: url('#clip-text');
-	transform: translate(0,0) scale(1.5);
+	transform: translate(0,0) scale(1.6);
 	background-size: 400px;
+
+
+	&[data-state='0'] + .offscreen #clip-text text{
+		font-family: 'Luckiest Guy', cursive;
+	}
+
+	&[data-state='1'] + .offscreen #clip-text text{
+		font-family: 'Fredericka the Great';
+	}
+
+	&[data-state='1']{
+		transform: translate(0,0) scale(1.61); /* Workaround for layer not updating */
+	}
 }
 
 .clip--textpath{
@@ -707,20 +720,12 @@ $codeFont: 'Source Code Pro', monotype;
 	}
 }
 
-#clip-text {
+#clip-text text{
 	font-size: 4em;
 }
 
 #clip-textpath{
 	font-size: 1em;
-}
-
-.font1{
-	font-family: 'Luckiest Guy', cursive;
-}
-
-.font2{
-	font-family: 'Fredericka the Great', cursive;
 }
 
 .font--textpath{

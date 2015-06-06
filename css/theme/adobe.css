@@ -755,4 +755,32 @@ body {
   top: 0;
   left: 0; }
 
+[data-state="freeform"].present {
+  width: 100%;
+  height: 100%;
+  padding: 0 !important; }
+
+.tiles {
+  display: flex;
+  height: 100%; }
+  .tiles--as-columns {
+    flex-flow: row nowrap; }
+
+.tile {
+  padding: 2em 1em;
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 50%;
+  justify-content: center;
+  align-items: center; }
+  .tile--alt1 {
+    background-color: #441763; }
+  .tile--alt2 {
+    background-color: #200535; }
+  .tile h2 {
+    margin-bottom: 1em; }
+  .tile code {
+    display: block;
+    text-align: left; }
+
 /*# sourceMappingURL=adobe.css.map */

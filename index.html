@@ -566,18 +566,18 @@
 				</section>
 
 				<section>
-					<h1 class="clip-surface clip--text" data-state-trigger data-state=0 data-max-state=1>New York</h1>
+					<h1 class="clip-surface clip--text" data-state-trigger data-state=0 data-max-state=1>Text Clipping</h1>
 
 					<svg class="offscreen" viewPort="0 0 960 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
 						<defs>
 								<clipPath id="clip-text">
-									<text text-anchor="middle" x="480" dy="300">Text Mask</text>
+									<text text-anchor="middle" x="480" dy="300">Text Clipping</text>
 								</clipPath>
 						</defs>
 					</svg>
 					<pre>
 <span class="not-important">&lt;clipPath id=&quot;shape&quot;&gt;</span>
-  &lt;text&gt;Text Mask&lt;/text&gt;
+  &lt;text&gt;Text Clipping&lt;/text&gt;
 <span class="not-important">&lt;/clipPath&gt;</span>
 					</pre>
 
@@ -823,7 +823,7 @@
 									HTML&#8592;SVG
 								</th>
 								<th>
-									SVG&#8592;SVG
+									SVG
 								</th>
 							</tr>
 						</thead>
@@ -888,7 +888,7 @@
 									HTML&#8592;SVG
 								</th>
 								<th>
-									SVG&#8592;SVG
+									SVG
 								</th>
 							</tr>
 						</thead>
@@ -896,7 +896,7 @@
 						<tbody>
 							<tr>
 								<td><img src="resources/logos/chrome.png" alt="Chrome"><span class="caveat">&#42;</span></td></td>
-								<td>&#10004;</td>
+								<td>&#10004;<span class="caveat">&#134;</span></td>
 								<td>&#10004;</td>
 								<td>&#10006;</td>
 								<td>&#10004;</td>
@@ -904,7 +904,7 @@
 
 							<tr>
 								<td><img src="resources/logos/opera.png" alt="Opera"><span class="caveat">&#42;</span></td></td>
-								<td>&#10004;</td>
+								<td>&#10004;<span class="caveat">&#134;</span></td>
 								<td>&#10004;</td>
 								<td>&#10006;</td>
 								<td>&#10004;</td>
@@ -937,6 +937,7 @@
 
 						<caption>
 							&#42; prefixed with -webkit- <br>
+							&#134; luminance mask support behind flag (Chrome, Opera)<br>
 							&#135; may be polyfilled with SVG (IE 8-10 only gradient. IE 11 image & gradient)
 						</caption>
 

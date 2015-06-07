@@ -217,7 +217,8 @@ body {
 .reveal .list--horizontal {
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 2em 0; }
 .reveal .monotype {
   font-family: "Source Code Pro", monotype;
   font-weight: 700; }
@@ -292,6 +293,7 @@ body {
     border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
 
 .muted {
+  -webkit-filter: grayscale(1) brightness(1.5) opacity(0.7);
   filter: grayscale(1) brightness(1.5) opacity(0.7); }
 
 .demo--graphic {

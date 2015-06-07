@@ -180,6 +180,7 @@ $codeFont: 'Source Code Pro', monotype;
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-between;
+		margin: 2em 0;
 	}
 
 	.monotype{
@@ -292,7 +293,9 @@ $codeFont: 'Source Code Pro', monotype;
 }
 
 .muted{
-	filter: grayscale(1) brightness(1.5) opacity(0.7);
+	$filter: grayscale(1) brightness(1.5) opacity(0.7);
+	-webkit-filter: $filter;
+					filter: $filter;
 }
 
 .demo--graphic{

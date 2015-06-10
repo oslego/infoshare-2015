@@ -287,35 +287,38 @@
 </pre>
 				</section>
 
-				<section>
-					<a href="http://webplatform.adobe.com/Demo-for-Alice-s-Adventures-in-Wonderland/" target="_blank">
-						<img src="resources/screenshots/alice-in-wonderland.png" alt="" />
-					</a>
+				<section id="alice">
+					<section>
+						<a href="http://webplatform.adobe.com/Demo-for-Alice-s-Adventures-in-Wonderland/" target="_blank">
+							<img src="resources/screenshots/alice-in-wonderland.png" alt="" />
+						</a>
+					</section>
+
+					<section data-background="resources/screenshots/alice-1-shape-inside.jpg"></section>
+
+					<section data-state="workaround">
+						<h2><code>shape-inside</code><br>workaround</h2>
+	<pre>
+	<span class="fragment highlight">&lt;div class=&quot;left&quot;&gt</span>
+	<span class="fragment highlight">&lt;div class=&quot;right&quot;&gt</span>
+	<span class="not-important">Alice was beginning to get very tired ...</span>
+
+	.left{
+		<span class="fragment highlight">float: left;</span>
+		shape-outside: polygon(0 0, ...);
+	}
+	.right{
+		<span class="fragment highlight">float: right;</span>
+		shape-outside: polygon(50% 0, ...);
+	}
+	</pre>
+					</section>
+
+					<section data-background="resources/screenshots/alice-1-shape-inside.jpg"></section>
+
+					<section data-background="resources/screenshots/alice-1-shape-outside.jpg"></section>
+
 				</section>
-
-				<section data-background="resources/screenshots/alice-1-shape-inside.jpg"></section>
-
-				<section data-state="workaround">
-					<h2><code>shape-inside</code><br>workaround</h2>
-<pre>
-<span class="fragment highlight">&lt;div class=&quot;left&quot;&gt</span>
-<span class="fragment highlight">&lt;div class=&quot;right&quot;&gt</span>
-<span class="not-important">Alice was beginning to get very tired ...</span>
-
-.left{
-  <span class="fragment highlight">float: left;</span>
-  shape-outside: polygon(0 0, ...);
-}
-.right{
-  <span class="fragment highlight">float: right;</span>
-  shape-outside: polygon(50% 0, ...);
-}
-</pre>
-				</section>
-
-				<section data-background="resources/screenshots/alice-1-shape-inside.jpg"></section>
-
-				<section data-background="resources/screenshots/alice-1-shape-outside.jpg"></section>
 
 				<section>
 					<a href="https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp" target="_blank" title="CSS Shapes Editor extension for Chrome Devtools">
@@ -754,7 +757,7 @@
 					</ul>
 				</section>
 
-				<section>
+				<section id="trekking">
 					<a href="https://oslego.github.com/cssmasking/" target="_blank">
 						<img src="resources/screenshots/trekking.png" alt="" />
 					</a>

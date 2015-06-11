@@ -22,5 +22,6 @@ Start on [webplatform.adobe.com](http://webplatform.adobe.com/).
 **CSS Masking**
 - [Introduction to CSS Masking](http://www.html5rocks.com/en/tutorials/masking/adobe/)
 - [Clipping in CSS and SVG](http://sarasoueidan.com/blog/css-svg-clipping/)
+- [Using `clip-path` for responsive shapes](http://www.smashingmagazine.com/2015/05/11/creating-responsive-shapes-with-clip-path/)
 - [Trekking CSS Masking demo](http://razvancaliman.com/cssmasking/)
 - [Responsive masks demo](http://razvancaliman.com/responsive-mask-image/)
